@@ -3,7 +3,7 @@ import galleryItemTpl from '../template/gallery-items.handlebars'
 
 
 
-const gallery = document.querySelector('.js-gallery')
+// const gallery = document.querySelector('.js-gallery')
 // function makeGaleryItem(countries){
 //    return countries.map((countrie)=>{
 //         return `
