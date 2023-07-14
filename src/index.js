@@ -22,6 +22,8 @@ import galleryItemTpl from '../template/gallery-items.handlebars'
 
 // gallery.innerHTML =  makeGaleryItem(countries)
 
+// два рызних записи знизу використовуючи hendlebars
+
 const galleryList = document.querySelector('.js-gallery')
 const markup = galleryItemTpl(countries)
 galleryList.innerHTML = markup
