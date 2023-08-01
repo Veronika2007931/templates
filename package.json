@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Veronika2007931/templates/issues"
   },
-  "homepage": "https://github.com/Veronika2007931/templates#readme",
+  "homepage": "https://github.com/Veronika2007931/templates",
   "dependencies": {
     "handlebars": "^4.7.7",
     "parcel": "^2.9.3",
