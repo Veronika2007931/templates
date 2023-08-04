@@ -1,32 +1,31 @@
 {
   "name": "templates",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
-  "source": "src/index.html",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://Veronika2007931.github.io/templates",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build --public-url /templates/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /templates/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Veronika2007931/templates.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Veronika2007931/templates/issues"
   },
-  "homepage": "https://Veronika2007931.github.io/templates",
   "dependencies": {
-    "handlebars": "^4.7.7",
-    "parcel": "^2.9.3",
+    "modern-normalize": "^1.1.0",
     "parcel-transformer-hbs": "^1.0.4"
   },
   "devDependencies": {
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-reporter-clean-dist": "^1.0.4"
-  }
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
